@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/q">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="382dp"
+        android:layout_height="292dp"
+        android:src="@drawable/park" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button"
+        android:text="정산하기"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>
